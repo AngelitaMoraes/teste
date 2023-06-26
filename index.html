@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workshopmacrame</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/pagina1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <ul class="menu">
+          <li class="logo">
+            <a href="#"><img src="/Imagem/Logotipo.JPG" alt="Logotipo"></a>
+          <li class="lupa">
+            <span class="lupaicone"></span>
+            <input type="text" class="lupainput" placeholder="Pesquisar">
+          </li>
+          <li><a href="Index3.html">Local</a></li>
+          <li><a href="Index2.html">Programação</a></li>
+          <li><a href="#">Página inicial</a></li>
+        </ul>
+        <script src="/Javascript/IndexMenu.js"></script>
+      
+      <section>  
+        <div class="menu-texto">
+          <h4 class="menu-título1">25/03/2023 - 08:00h até 19:00h</h4> 
+          <h1 class="menu-título2">WORKSHOP</h1>
+          <h1 class="menu-título3">Macramê</h1>
+          <h2 class="menu-título4">Pontos Básicos</h2>
+          <h3 class="menu-título5">Agregando valor a trabalhos manuais</h3>
+        </div>  
+      </section>
+      
+      <section>
+        <div class="banner1">
+          <p>O Ateliê "AMO ARTES" traz para você que é apaixonado por<br>artesanato um Workshop com atividades práticas.</p>
+          <p>Evento completo com café da manhã, almoço e coquetel de<br>encerramento.</p>          
+        </div>
+      </section>    
+      
+      <hr>
+      
+      <section>  
+        <div class="banner2">
+          <a href="Formulario.html">
+          <button class="botao" type="submit">CONFIRMAR AQUI SUA RESERVA</button>
+          </a>
+        </div>  
+      </section>
+        
+        <hr>
+      
+      <section>    
+        <div class="banner3">
+          <p>Esse evento foi elaborado com todo carinho para ajudar os<br>apaixonados e empreendedores do artesanato a utilizar a técnica<br>do macramê para agregar valor a suas peças.</p>
+        </div>
+       
+        <div class="container">
+          <div class="title" onclick="toggleContent(1)">APRENDER</div>
+          <div class="title" onclick="toggleContent(2)">COLOCAR EM PRÁTICA</div>
+          <div class="title" onclick="toggleContent(3)">NETWORKING</div>
+        </div>
+        
+        <div class="content-container">
+          <div class="content" id="content1">
+            <div class="content-inner">
+              <img src="/Imagem/Aprender.JPG" alt="Aprender" class="Aprender">
+              <p style="text-decoration: underline;">VAMOS APRENDER OS 7 PRINCIPAIS PONTOS DE MACRAMÊ E COMO APLICAR NO SEU ARTESANATO.</p>
+              <br>
+              <p>1) Laçada inicial e nó cabeça</p>
+              <p>2) Nó duplo, chato ou quadrado</p>
+              <p>3) Nó Festonê</p>
+              <p>4) Nó meio engate alternante</p>
+              <p>5) Nó espiral</p>
+              <p>6) Nó infinito</p>
+              <p>7) Nó cruzado</p>
+            </div>
+          </div>
+        
+          <div class="content" id="content2">
+            <div class="content-inner">
+              <img src="/Imagem/Pratica.JPG" alt="Pratica" class="Pratica">
+              <p style="text-decoration: underline;">VAMOS COLOCAR EM PRÁTICA CADA UM DOS PONTOS. SERÁ DISPONIBILIZADO MATERIAL E MONITORES ESTARÃO DISPONÍVEIS PARA AUXILIÁ-LOS.</p>
+              <br>
+              <p>VOCÊ TAMBÉM TERÁ ACESSO A UM PORTIFÓLIO ON-LINE COM FOTOS E MATERIAIS DE SUPORTE GRATUITAMENTE PARA CONSULTA E DOWNLOAD DURANTE 60 DIAS.</p>
+              <br>
+              <p>SERÁ DISPONIBILIZADO UM LINK POR E-MAIL PARA DOWNLOAD DA GRAVAÇÃO DO WORKSHOP.</p>
+            </div>
+          </div>
+        
+          <div class="content" id="content3">
+            <div class="content-inner">
+              <img src="/Imagem/Networking.JPG" alt="Networking" class="Networking">
+              <p style="text-decoration: underline;">NESSE EVENTO VOCÊ TERÁ A OPORTUNIDADE DE CONHECER PESSOAS COM O MESMO INTERESSE EM COMUM.</p>
+              <br>
+              <p>OS PARTICIPANTES TEM A OPORTUNIDADE DE INTERAGIR, DIVIDINDO CONHECIMENTOS ESCLARECENDO DÚVIDAS E NA TROCA DE EXPERIÊNCIAS.</p>
+              <br>
+              <p>NOSSO OBJETIVO E FAZER DESSE EVENTO UM DIA MUITO AGRADÁVEL E PRODUTIVO.</p>
+            </div>
+          </div>
+        </div>  
+      
+      <div class="containerfotos">
+         <div class="image-container">
+          <div class="image-frame">
+              <img src="/Imagem/Mostruario1.jpg" alt="Mostruario1" id="Mostruario1" class="active">
+              <img src="/Imagem/Mostruario2.jpg" alt="Mostruario2" id="Mostruario2">
+              <img src="/Imagem/Mostruario3.jpg" alt="Mostruario3" id="Mostruario3">
+              <img src="/Imagem/Mostruario4.jpg" alt="Mostruario4" id="Mostruario4">
+              <img src="/Imagem/Mostruario5.jpg" alt="Mostruario5" id="Mostruario5">
+              <img src="/Imagem/Mostruario6.jpg" alt="Mostruario6" id="Mostruario6">
+              <button id="previousButton" class="arrow-button">&#8249;</button>
+              <button id="nextButton" class="arrow-button">&#8250;</button>
+          </div>
+         </div>   
+          <div class="video-frame">
+              <iframe width="500" height="400" src="https://www.youtube.com/embed/BtySaFQrBzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+  
+      
+      </section>
+      
+        <hr>
+
+      <section>
+        <div class="banner4">
+          <h2 style="color: blue;font-size: 38px;text-align: center;">Local</h2>
+        
+         <table> 
+          <tr class="localizacao-container">
+           <td class="localizacao1">
+            <h4>ESPAÇO FIT EVENTOS</h4>
+            <br>
+            <p1>Av. Alfredo Egídio de Souza Aranha, 384</p1>
+            <p>Estação Granja Julieta</p>
+            <p>Cep 04726-170 – São Paulo – SP</p>
+           </td>
+
+           <td class="localizacao2">
+            <p>O Espaço Fit Eventos é considerado um dos melhores espaços para eventos, com nota 4.8 no Google, foi lançado em 2012, com o propósito de oferecer aos seus clientes atendimento de qualidade.</p>
+            <br>
+            <p2>Clique <a href="Index3.html">AQUI</a> para mais informações.</p2>
+           </td>
+          </tr>
+        </table>
+
+          <div class="localfotos">
+           <img src="/Imagem/Local1.jfif" alt="Local1" id="Local1">
+           <img src="/Imagem/Local2.jfif" alt="Local2" id="Local2">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.246444810152!2d-46.716791385020784!3d-23.631343684648257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce517d424d4467%3A0x6091ed3703aaf0c4!2sEspa%C3%A7o%20Fit%20Eventos%20-%20Na%C3%A7%C3%B5es%20Unidas!5e0!3m2!1spt-BR!2sbr!4v1686802583160!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa1"></iframe>
+          </div> 
+
+        </div>
+        
+      </section>
+        <hr>  
+      <section>  
+        <div class="banner5">
+          <h2>INVESTIMENTO</h2>
+         <div class="bannertexto5"> 
+          <p>Valor por Participante: R$ 450,00.</p>
+          <p>Pagamento por PIX, Depósito, Boleto Bancário e Cartão de Crédito através do Mercado Pago com opção de parcelamento.</p>
+          <p>Neste valor está incluso:</p>
+          <p><span class="marker">Cursos e Palestras</span></p>
+          <p><span class="marker">Materiais para Atividades Práticas</span></p>
+          <p><span class="marker">Acesso a nossa Plataforma de Conteúdo por 60 dias</span></p>
+          <p><span class="marker">Certificado Digital</span></p>
+          <p><span class="marker">Café da Manhã</span></p>
+          <p><span class="marker">Coffee Break</span></p>
+          <p><span class="marker">Almoço</span></p>
+          <p><span class="marker">Coquetel de Encerramento</span></p>
+          <p><span class="p1">PARA MAIS DETALHES SOBRE A PROGRAMAÇÃO <a href="Index2.html">CLIQUE AQUI</a>.</span></p>
+          <p><span class="p2"><a href="Formulario.html">FAÇA AQUI SUA RESERVA</a>.</span></p>
+          <p>Você irá receber um e-mail da nossa equipe com as instruções para pagamento.</p>
+          <p>Após a confirmação do pagamento sua inscrição estará efetivada.</p>
+          <p><span class="p3">Para mais informações entre em contato via e-mail: atelieamoartes@gmail.com.</span></p>
+         </div> 
+        </div>
+      </section>
+      
+      <section>
+        <div class="banner6">
+          <h5>NÃO DEIXE DE SE INCREVER!</h5>
+          <div class="banner2">
+            <a href="Formulario.html">
+            <button class="botao" type="submit">CONFIRMAR AQUI SUA RESERVA</button>
+            </a>
+          </div>
+          <h6>CONTAMOS COM A SUA PARTICIPAÇÃO.</h6>
+        </div>  
+      </section>
+
+      <section>
+        <div class="author">
+            <h5>Criado por Angelita Bortolotti</h6>
+        </div>
+      </section>
+      
+    </body>
+</html>

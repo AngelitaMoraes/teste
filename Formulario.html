@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/Formulario.css">
+    <script src="/Javascript/Formulario.js"></script>
+    <title>Pré_inscrição</title>
+</head>
+<body>
+    <div class="imagem">
+        <figure class="imagem">
+            <img src="/Imagem/Formulario1.jpg" alt="imagem" id="imagem">
+        </figure>
+    </div>
+
+    <div class="informacoes">
+        <h1 id="titulo">Pré-inscrição no Evento<br>WORKSHOP MACRAMÊ - Pontos Básicos</h1>
+        <p id="subtitulo">Horário do evento: 25 de março de 2023<br>Endereço: ESPAÇO FIT EVENTOS - Av. Alfredo E. de Souza Aranha, 384 - São Paulo/SP
+        <br>Whatsapp para (55) 99000-0001 ou envie um e-mail para atelieamoartes@gmail.com</p>
+    </div>
+    
+    <form action="/enviar" method="POST">
+        <div class="form">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="form">
+            <label for="nome"><strong>Nome Completo</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div class="form">
+            <label for="celular"><strong>Celular</strong></label>
+            <input type="number" name="celular" id="celular" required>
+        </div>
+
+        <div class="form">
+            <label for="cpf"><strong>CPF</strong></label>
+            <input type="number" name="cpf" id="cpf" required>
+        </div>
+
+        <div class="informativo">
+            <p>IMPORTANTE:</p>
+            <p>Você irá receber um e-mail da nossa equipe com as instruções para pagamento.
+            <br>Após a confirmação do pagamento sua inscrição estará efetivada.</p>
+        </div>
+
+        <div class="form">
+            <label><strong>Como Deseja Realizar o Pagamento?</strong></label>
+            <label>
+                <input type="radio" name="pagamento" value="pix">PIX
+            </label>
+            <label>    
+                <input type="radio" name="pagamento" value="boleto">Boleto
+            </label>
+            <label>
+                <input type="radio" name="pagamento" value="depósito">Depósito
+            </label>
+            <label>
+                <input type="radio" name="pagamento" value="cartão de crédito e parcelamento através do mercado pago">Cartão de Crédito e Parcelamento através do MERCADO PAGO
+            </label>
+        </div>
+
+        <div class="form">
+            <label><strong>Restrições alimentares:</strong></label>
+            <label>
+                <input type="radio" name="restricoes" value="nenhuma">Nenhuma
+            </label>
+            <label>    
+                <input type="radio" name="restricoes" value="vegetariano">Vegetariano
+            </label>
+            <label>
+                <input type="radio" name="restricoes" value="vegano">Vegano
+            </label>
+            <label>
+                <input type="radio" name="restricoes" value="kosher">Kosher
+            </label>
+            <label>
+                <input type="radio" name="restricoes" value="sem_gluten">Sem glúten
+            </label>
+            <div class="label-outro">
+            <label for="outro">Outro:</label>
+            <input type="text" name="outro" id="outro">
+            </div>
+        </div>
+
+        <button class="botao" type="submit"><strong>Confirmar Pré-Inscrição</strong></button>
+    </form>
+
+</body>
+</html>

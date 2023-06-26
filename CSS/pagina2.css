@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    font-family: 'Roboto', Arial;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color:#f1e7e8;
+    transition: background-color 0.3s ease;
+}
+
+ul.menu li {
+    float: right;
+}
+  
+ul.menu li a {
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul.menu.scrolled li a {
+    color: #ffffff;
+}
+  
+ul.menu li.logo {
+    float: left;
+    padding: 0;
+}
+
+ul.menu li.logo a {
+    padding: 0;
+}
+
+ul.menu li.logo img {
+    display: inline-block;
+    max-height: 40px;
+    max-width: auto;
+    padding: 8px 0px 8px 28px;
+    vertical-align: middle
+}
+
+.lupa {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.lupaicone {
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    background-image: url(/Imagem/Lupa.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.lupainput {
+    display: none;
+    width: 300px;
+    padding: 5px;
+}
+
+.lupa.active .lupainput {
+    display: inline-block;
+}
+
+.menu-texto {
+    margin-top: 51px;
+    padding: 100px 0px 80px 0px;
+    background-image: url("/Imagem/BackgroundMenu.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #050505;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: normal;
+    border-bottom: 10px solid #a9a9a9;
+    width: 100%;
+}
+
+.info {
+    color: #212121;
+    background-color: #e9e9e9;
+    background-size: cover;
+    line-height: normal;
+}
+
+.info1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto, Arial;
+    font-variant: normal;
+    font-weight: 700;
+    padding: 40px 0px 40px 0px;
+}
+
+.info2 p {
+    text-align: center;
+    font-size: 21px;
+    padding: 40px 0px 40px 0px
+}
+
+.info2 pre {
+    font-size: 22px;
+    padding: 35px 0px 0px 380px;
+    line-height: 2.0;
+}
+
+.marker::before {
+    content: "▪";
+    margin-right: 0.5em;
+}
+
+.marker1 {
+    font-size: 19px;
+}
+
+.marker1::before {
+    content: "▪";
+    margin-right: 0.5em;
+}
+
+.time {
+    font-size: 18px;
+}
+
+.info3 {
+    text-align: left;
+    font-size: 17.5px;
+    line-height: 1.5;
+    padding: 40px 200px 40px 200px;
+}
+
+.info3 p {
+    margin-bottom: 1em;
+}
+
+.info3 p1 {
+    color: #003e96;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 3px solid #c4bfbfd6;
+    width: 74%;
+    margin: auto;
+}
+
+.author {
+    font-size: 19px;
+    text-align: left;
+    padding: 40px 200px 40px 200px;
+}

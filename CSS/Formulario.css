@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    background-color: #f8f4f1;
+    margin: 0;
+    padding: 0;
+}
+  
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+  
+.imagem img {
+    width: 640px;
+    height: 160px;
+    border-radius: 10px;
+    margin-top: 20px
+}
+
+.informacoes {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 25px 10px 25px;
+}
+
+#titulo {
+    font-size: 32px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    color: #202124;
+    margin-bottom: 15px;
+}
+  
+#subtitulo {
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    color: #202124;
+}
+
+.informativo {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+form {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+  
+.form {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    width: 590px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    padding: 10px 25px 25px 25px;
+}
+  
+label {
+    display: block;
+    line-height: 3.0;
+}
+  
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.label-outro {
+    display: flex;
+    align-items: center;
+}
+  
+.label-outro label {
+    margin-right: 10px;
+    margin-left: 6px;
+}
+
+.botao {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #202124;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
